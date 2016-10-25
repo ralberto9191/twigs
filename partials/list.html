@@ -1,0 +1,45 @@
+<section class="artistpage">
+  <div class="search">
+    <h1>Stick Directory</h1>
+    <br/>
+    <label>search: </label>
+    <input ng-model="query" placeholder="Search for sticks" autofocus>
+
+    <label class="formgroup">
+    <!--by:
+      <select ng-model="stickOrder">
+        <option value="name">Name</option>
+        <option value="bauer">Bauer</option>
+        <option value="ccm">CCM</option>
+        <option value="easton">Easton</option>
+        <option value="reebok">Reebok</option>
+        <option value="sherwood">Sherwood</option>
+      </select> -->
+    </label>
+    <br/><br/>
+    <label class="formgroup">
+      <input type="radio" ng-model="direction" name="direction" checked>
+      ascending
+    </label>
+    
+    <label class="formgroup">
+      <input type="radio" ng-model="direction" name="direction" value="reverse">
+      descending
+    </label>
+    <br/><br/>
+    <p style="color:#dcdcdc;">Type a brand i.e. Bauer, CCM, Easton, Reebok, Sherwood.</p>
+  </div>
+
+    <ul class="artistlist" ng-show="query">
+      <li ng-animate="'animate'" class="artist cf" ng-repeat="item in sticks | filter: query | orderBy: stickOrder:direction">
+        <a href="#/details/{{sticks.indexOf(item)}}">
+        <img ng-src="images/{{item.shortname}}.jpg" alt="{{item.name}}">
+        <div class="info">
+          <h2>{{item.name}}</h2>
+          <h3>{{item.curve}}</h3>
+          <h3>{{item.flex}}</h3>
+        </div>
+        </a>
+      </li>
+    </ul>
+</section>

@@ -1,0 +1,19 @@
+<section class="artistinfo">
+  <div class="artist cf" ng-model="sticks">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>    
+    <h1>{{sticks[whichItem].name}}</h1>
+    <div class="info">
+      <a href="images/{{sticks[whichItem].shortname}}.jpg" target="_blank"><img ng-src="images/{{sticks[whichItem].shortname}}.jpg" alt="{{sticks[whichItem].name}}"></a>
+      <div class="bio"><h3 style="margin-bottom:10px;">{{sticks[whichItem].snippet}}</h3>        
+        <h3><strong>Brand :: </strong>{{sticks[whichItem].brand}}</h3>
+        <h3><strong>Stick :: </strong>{{sticks[whichItem].name}}</h3>
+        <h3><strong>Pattern :: </strong>{{sticks[whichItem].curve}}</h3>
+        <h3><strong>Flex :: </strong>{{sticks[whichItem].flex}}</h3>
+        <h3><strong>Grip :: </strong>{{sticks[whichItem].grip}}</h3>
+        <h3><strong>Price :: </strong>{{sticks[whichItem].price}}</h3>      
+      </div>
+    </div>
+  </div>
+  <a class="btn btn-left" href="index.html">&laquo;</a>
+</section>

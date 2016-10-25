@@ -1,0 +1,188 @@
+[
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_Nexus_1000",
+        "name": "Bauer Nexus 1000 Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    }, 
+
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_Nexus_8000",
+        "name": "Bauer Nexus 8000 Sr.",
+        "curve": "P02 / P92 / PM9",
+        "flex": "77 / 87 / 102",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    }, 
+
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_TotalOne_NXG",
+        "name": "Bauer TotalOne NXG Sr.",
+        "curve": "PM9 / P02 / P88 / P92",
+        "flex": "77 / 87 / 102 / 112",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    }, 
+
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_TotalOne_NXG_SE",
+        "name": "Bauer TotalOne NXG SE Sr.",
+        "curve": "P02 / P92",
+        "flex": "87 / 102",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_Vapor_APX",
+        "name": "Bauer Vapor APX Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+    
+    {
+        "brand": "Bauer",
+        "shortname": "Bauer_Vapor_APX2",
+        "name": "Bauer Vapor APX2 Sr.",
+        "curve": "P02 / PM9 / P88 / P91A / P92",
+        "flex": "77 / 87 / 102",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "CCM", 
+        "shortname": "CCM_Crazy_U",
+        "name": "CCM Crazy U+ Pro Sr.",
+        "curve": "19",
+        "flex": "85 / 100",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "CCM", 
+        "shortname": "CCM_RBZ_100",
+        "name": "CCM RBZ 100 Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "CCM",
+        "shortname": "CCM_RBZ_Stage2",
+        "name": "CCM RBZ Stage 2 Sr.",
+        "curve": "P19 / P91",
+        "flex": "65 / 75 / 85 / 100",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Easton",
+        "shortname": "Easton_Stealth_85S",
+        "name": "Easton Stealth 85S Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Easton",
+        "shortname": "Easton_55S",
+        "name": "Easton 55S SE2 Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Easton",
+        "shortname": "Easton_Stealth_RS",
+        "name": "Easton Stealth RS I Sr.",
+        "curve": "P90 / P91 / P92",
+        "flex": "77 / 87 / 102 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Easton",
+        "shortname": "Easton_Stealth_RS2",
+        "name": "Easton Stealth RS II Sr.",
+        "curve": "P3",
+        "flex": "75 / 85 / 100 / 110",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Easton",
+        "shortname": "Easton_V9E",
+        "name": "Easton V9E Sr.",
+        "curve": "P/E3",
+        "flex": "75 / 85 / 100 / 110",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Sherwood",
+        "shortname": "Sherwood_R8",
+        "name": "Sherwood R8 Sr.",
+        "curve": "P061 / P661 / P119 / P024 / P055 / P007",
+        "flex": "75 / 85 / 95 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+    
+    {
+        "brand": "Sherwood",
+        "shortname": "Sherwood_N12",
+        "name": "Sherwood Nexon 12 Sr.",
+        "curve": "PP05 / P77 / PP61",
+        "flex": "75 / 85 / 95 / 105",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    },
+
+    {
+        "brand": "Reebok",
+        "shortname": "Reebok_20K",
+        "name": "Reebok 20K Sr.",
+        "curve": "P87A",
+        "flex": "85 / 100",
+        "grip": "Yes",
+        "price": "$150",
+        "snippet": "Description here"
+    }   
+]
